@@ -2,23 +2,50 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>İlk Web Sitem</title>
+    <title>Ana Sayfa</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-       <h1>Merhaba Dünya 🌍</h1>
-    <p>Bu benim ilk web sayfam</p>
-<button onclick="mesajyenisekme()">Tıkla</button>
-<button onclick="mesaj()">Mesaj Göster</button>
-<button onclick="renkDegistir()">Arka Plan Değiştir</button>
-<button onclick="yaziToggle()">Yazıyı Göster / Gizle</button>
-<button onclick="sayacArtir()">Sayaç</button>
-<button onclick="sayacSifirla()">Sıfırla</button>
+<header class="header">
+    <div class="header-container">
+        <h1>Ana Sayfa</h1>
+        <nav>
+            <a href="index.html">Anasayfa</a>
+            <a href="projeler.html">Projeler</a>
+            <a href="hakkimda.html">Hakkımda</a>
+            <a href="iletisim.html">İletişim</a>
+        </nav>
+    </div>
+</header>
 
-<p id="yazi"></p>
-<p id="sayac">0</p>
 
-    <script src="script.js"></script>
+
+
+<div class="container section">
+<h2>Ana Sayfa</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Sayaç Uygulaması</h3>
+            <p>JavaScript ile yapılmış basit sayaç uygulaması</p>
+        </div>
+
+        <div class="card">
+            <h3>Renk Değiştirici</h3>
+            <p>Butona basınca rastgele arka plan rengi değiştiren uygulama</p>
+        </div>
+
+        <div class="card">
+            <h3>Mini Portfolio</h3>
+            <p>Çok sayfalı HTML + CSS + JS site yapısı</p>
+        </div>
+    </div>
+    <button onclick="yeniSekme()">Merhaba Sayfasını Aç</button>
+</div>
+
+
+
+<script src="script.js"></script>
 </body>
 </html>

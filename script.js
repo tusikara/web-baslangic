@@ -5,7 +5,7 @@ function mesaj() {
 function mesaj() {
     alert("Merhaba! 🚀");
 }
-function mesajyenisekme() {
+function yeniSekme() {
     window.open("merhaba.html", "_blank");
 }
 
@@ -37,4 +37,3 @@ function sayacSifirla() {
     sayac = 0;
     document.getElementById("sayac").innerText = 0;
 }
-
